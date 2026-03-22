@@ -1,4 +1,6 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 :root {
   --primary: #1B4332;
@@ -7,5 +9,5 @@
 
 body {
   margin: 0;
-  font-family: sans-serif;
+  background-color: #FDFBF7; /* لون الـ cream اللي إنت مختاره */
 }
