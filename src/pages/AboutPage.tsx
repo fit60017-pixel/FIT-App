@@ -1,7 +1,7 @@
 import React from 'react';
 import { Leaf, ShieldCheck, Heart, Users } from 'lucide-react';
 // التعديل الجوهري هنا: تغيير المصدر لـ framer-motion
-import { motion } from 'framer-motion';
+import { motion } from 'framer-motion'; // تأكد إنها كدة بالظبط
 
 export const AboutPage = () => {
   return (
