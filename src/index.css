@@ -1,32 +1,13 @@
 @import "tailwindcss";
-@import "leaflet/dist/leaflet.css";
 
-@theme {
-  --color-primary: #D2B48C;
-  --color-primary-dark: #B8966E;
-  --color-secondary: #8B4513;
-  --color-secondary-dark: #5D2E0A;
-  --color-cream: #FDFBF7;
-  --color-cream-dark: #F4F1EA;
-  --color-mint: #98FF98;
-  --color-bronze: #CD7F32;
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
 }
 
 body {
-  @apply bg-cream text-gray-900 transition-colors duration-300;
-}
-
-@utility custom-scrollbar {
-  &::-webkit-scrollbar {
-    width: 6px;
-  }
-  &::-webkit-scrollbar-track {
-    @apply bg-transparent;
-  }
-  &::-webkit-scrollbar-thumb {
-    @apply bg-gray-200 dark:bg-gray-700 rounded-full;
-  }
-  &::-webkit-scrollbar-thumb:hover {
-    @apply bg-gray-300 dark:bg-gray-600;
-  }
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
 }
